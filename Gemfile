@@ -28,6 +28,7 @@ gem 'spring',        group: :development
 
 group :development do
   gem 'pry-rails'
+  gem 'rb-readline', '~>0.5.1'
 end
 
 # Use ActiveModel has_secure_password
