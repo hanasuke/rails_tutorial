@@ -16,5 +16,5 @@
 /tmp
 /vendor
 
-config/database.yml
+database.yml
 *#*
