@@ -28,6 +28,9 @@ gem 'spring',        group: :development
 
 group :development do
   gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'quiet_assets'
+  gem 'annotate'
   gem 'rb-readline', '~>0.5.1'
 end
 
@@ -42,3 +45,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'slim'
